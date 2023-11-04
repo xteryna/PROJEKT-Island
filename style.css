@@ -20,5 +20,136 @@ body {
 	background-color: #f5f5f5;
 	font-size: 16px;
 	line-height: 1.6;
+	font-family: 'Merriweather', serif;
 }
+
+h1, h2, .image-title, .menu a, .image-title a{
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+p {
+	margin: 20px 30px;
+}
+
+.hlavicka p, .hlavicka h1 {
+	color: white;
+	text-align: center;
+}
+
+.grey, .grey a, .paticka p, .paticka a {
+	color: #b0b0b0;
+}
+p.jmeno {
+	opacity: 0.5;
+	line-height: 1;
+}
+.hlavicka {
+	background-image: url(images/island-hlavicka.jpg);
+	background-size: cover;
+	padding: 30px;
+}
+
+.jmeno {
+	font-style: italic;
+
+}
+.uvodni_text::after {
+	content: '';
+	display: block;
+	width: 70px;
+	height: 2px;
+	background-color: white;
+	margin: auto;
+	margin-top: 30px;
+}
+section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.menu li {
+	list-style-type: none;
+	border-bottom: 2px solid #f5f5f5;
+	width: 100%;
+}
+.menu ul {
+	margin: 0 30px;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 90%;
+	justify-content: center;
+
+}
+.menu li a {
+	color: #b0b0b0;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	padding: 5px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+img {
+	width: 100%;
+	display: block;
+	padding-top: 40px;
+}
+.image-title {
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+}
+
+h2 {
+	margin: 0 30px 30px;
+	
+}
+h2::after {
+	content: '';
+	display: block;
+	width: 70px;
+	height: 5px;
+	background-color: #629fe0;
+	margin: 30px -30px;
+}
+
+
+
+.foto img {
+	padding-top: 20px;
+}
+
+.foto .image-title::first-line {
+	font-weight: bold;
+}
+
+section.paticka {
+	background-color:#f5f5f5;
+}
+
+.content {
+	background-color: white;
+	box-shadow: 0 20px 10px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
